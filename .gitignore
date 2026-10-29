@@ -1,0 +1,30 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+env/
+venv/
+
+# Database files & SQLite WAL
+data/*.db
+data/*.sqlite3
+data/*-wal
+data/*-shm
+*.sqlite3
+*.db
+
+# Backups
+backups/Daily/*
+backups/Weekly/*
+
+# Testing & Cache
+.pytest_cache/
+.coverage
+htmlcov/
